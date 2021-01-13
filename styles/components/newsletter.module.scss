@@ -1,0 +1,64 @@
+.newsletter {
+    // background-color: #f00;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        font-family: 'Cinzel_Decorative_Bold', sans-serif;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        margin: 0;
+
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #4c4c4b;
+    }
+
+    .inputs {
+        display: flex;
+        position: relative;
+        width: 30%;
+
+
+        input {
+            height: 4rem;
+            padding: 1rem;
+            border: none;
+            background: #23201D;
+            color: #ddd;
+            border-radius: 7px;
+            font-size: 1.1rem;
+            outline: none;
+            width: 100%;
+        }
+
+        .button {
+            position: absolute;
+            border: none;
+            right: 0;
+            top: 0;
+            width: 7rem;
+            height: 4rem;
+            border-radius: 0 7px 7px 0;
+            font-size: 1.1rem;
+            outline: none;
+            color: #fff;
+            background: #4c4c4b;
+
+            &:hover {
+                cursor: pointer;
+                color: #4c4c4b;
+                background-color: #fff
+            }
+        }
+
+        .email {}
+    }
+}

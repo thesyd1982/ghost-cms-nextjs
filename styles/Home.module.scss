@@ -1,0 +1,27 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main {
+  flex: 1 0 auto;
+
+  .section-1 {
+    display: flex;
+  }
+
+  .section-2 {
+    display: flex;
+  }
+
+
+}
+
+.container {
+  widows: 95%;
+  margin: 0 auto;
+  background-color: #ff0;
+  padding: 5%;
+}

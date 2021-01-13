@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Cinzel_Decorative_Bold';
+  src: url('../public/fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Cinzel_Decorative';
+  src: url('../public/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Cinzel_Decorative_Black';
+  src: url('../public/fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Roboto_Slab';
+  src: url('../public/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto_Slab_Bold';
+  src: url('../public/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto_Slab';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+img {
+  height: auto
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  widows: 95%;
+  margin: 0 auto;
+  background-color: #f00;
+}

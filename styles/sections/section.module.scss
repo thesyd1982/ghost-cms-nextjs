@@ -1,0 +1,131 @@
+.section {
+
+    .welcome-section {
+
+        height: 80vh;
+
+        color: #441A05;
+        background-color: #FBFAF1;
+        padding: 8rem;
+
+        p {
+            margin-top: 4.2rem;
+            font-size: 1.1rem;
+            color: #9D9087;
+            width: 40vw;
+            line-height: 1.7rem;
+            margin-bottom: 4rem;
+        }
+
+        .title {
+            margin-top: 3.2rem;
+            margin-bottom: 1rem;
+
+            font-size: 3rem;
+            font-family: 'Cinzel_Decorative_Black', sans-serif;
+            width: 30vw;
+
+        }
+    }
+}
+
+
+
+.our-values-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+        color: #441A05;
+        font-family: "Cinzel_Decorative_Black", sans-serif;
+
+
+        font-size: 3rem;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+    .cols {
+
+
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 4rem;
+
+        .col {
+            cursor: pointer;
+            width: 20%;
+            border: 1px dotted;
+            text-align: center;
+
+            &-title {
+                text-transform: capitalize;
+                font-family: "Cinzel_Decorative_Bold", sans-serif;
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+
+
+            }
+
+            &-description {
+
+                max-width: 60%;
+                margin: 0 auto;
+                color: #9D9087;
+
+            }
+
+            &-knowledge {
+                color: #E95823;
+
+                &:hover {
+
+                    color: #57A68F;
+                }
+
+            }
+
+
+            &-spirituality {
+                color: #C89028;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #57A68F;
+                }
+            }
+
+            &-community {
+                color: #57A68F;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #E95823;
+                }
+            }
+
+            &-service {
+                color: #C89028;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #57A68F;
+                }
+            }
+
+        }
+
+    }
+
+}

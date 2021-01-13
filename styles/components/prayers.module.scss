@@ -1,0 +1,62 @@
+.pray-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 70vh;
+    color: #fff;
+    background-color: #C89028;
+
+    .prayer-times-link {
+        font-family: "Roboto_Slab_Bold";
+        font-size: 1rem;
+        color: #441A05;
+        margin: 1rem;
+        transition: color 0.3s ease-in-out .3s;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    padding: 7.91875rem;
+    text-align: center;
+
+
+    .pray-times-title {
+        font-size: 3rem;
+        font-family: 'Cinzel_Decorative_Black', sans-serif;
+        margin-top: 5.5rem;
+    }
+
+    .pray-times-day {
+        font-size: 1rem;
+        font-family: "Roboto_Slab", sans-serif;
+        text-transform: capitalize;
+
+    }
+
+    .prayer {
+        border-bottom: 0.25px solid #866221;
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Roboto_Slab_Bold";
+        font-size: 1.1rem;
+
+        .prayer-name {
+
+            text-transform: capitalize;
+            color: #441A05;
+        }
+
+        .prayer-time {
+
+            text-transform: capitalize;
+
+        }
+    }
+}
